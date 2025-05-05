@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare os números</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Compare os números:</h1>
+        <form id="form-compare">
+            <input type="number" id="first_num" placeholder="Digite o primeiro número" required min="0"/>
+            <input type="number" id="second_num" placeholder="Digite o segundo número" required min="0"/>
+            <button id="btn-compare" type="submit">Comparar números</button>
+        </form>
+        <p class="error_message">Formulário inválido</p>
+        <p class="success_message">Formulário válido</p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
